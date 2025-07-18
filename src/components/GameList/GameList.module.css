@@ -1,0 +1,45 @@
+.gameList {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.provider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  font-size: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.sentinel {
+  height: 20px;
+}
+
+.endMessage {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+  font-size: 14px;
+}
